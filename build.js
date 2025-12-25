@@ -244,7 +244,7 @@ function generateHTML(data) {
 try {
     const { data } = loadContent('./content/pages/home.md');
     const html = generateHTML(data);
-    fs.writeFileSync('./index.html', html);
+    fs.writeFileSync('./public/index.html', html);
     console.log('✅ index.html généré avec succès !');
 } catch (error) {
     console.error('❌ Erreur:', error.message);
