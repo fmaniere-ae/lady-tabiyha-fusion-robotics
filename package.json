@@ -1,0 +1,22 @@
+{
+  "name": "lady-tabitha-fusion-robotics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmaniere-ae/lady-tabiyha-fusion-robotics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fmaniere-ae/lady-tabiyha-fusion-robotics/issues"
+  },
+  "homepage": "https://github.com/fmaniere-ae/lady-tabiyha-fusion-robotics#readme"
+}

@@ -1,8 +1,4 @@
 {
-  "routes": [
-    {
-      "src": "/admin/config.yml",
-      "dest": "/admin/config.yml"
-    }
-  ]
+    "cleanUrls": true,
+    "trailingSlash": false
 }
