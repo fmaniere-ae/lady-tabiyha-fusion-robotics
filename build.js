@@ -88,7 +88,7 @@ function generateHTML(data) {
     if (tokenMatch) {
         const token = tokenMatch[1];
         // Redirige vers /admin avec le token
-        window.location.href = "/admin/#invite_token=${token}";
+        window.location.href = "/admin/#invite_token=\${token}";
     }
     </script>
 
