@@ -5,6 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ateliers de robotique – Fusion Robotics</title>
 
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+  const tokenMatch = window.location.hash.match(/#invite_token=(.+)/);
+  if (tokenMatch) {
+    const token = tokenMatch[1];
+    // Redirige vers /admin avec le token
+    window.location.href = "/admin/#invite_token="+tokengit ;
+  }
+  </script>
+
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
